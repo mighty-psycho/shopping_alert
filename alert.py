@@ -48,7 +48,7 @@ def send_mail():
 
     msg = f'Subject: {subject}\n\n{body}'
     server.sendmail(
-        'andrealmijovic@gmail.com',
+        config.USER,
         'andrealalic2@gmail.com',
         msg
     )
@@ -86,7 +86,7 @@ def send_mail2():
 
     msg = f'Subject: {subject}\n\n{body}'
     server.sendmail(
-        'andrealmijovic@gmail.com',
+        config.USER,
         'andrealalic2@gmail.com',
         msg
     )
@@ -124,7 +124,7 @@ def send_mail3():
 
     msg = f'Subject: {subject}\n\n{body}'
     server.sendmail(
-        'andrealmijovic@gmail.com',
+        config.USER,
         'andrealalic2@gmail.com',
         msg
     )
